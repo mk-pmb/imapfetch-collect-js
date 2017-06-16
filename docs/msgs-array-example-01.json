@@ -1,0 +1,81 @@
+﻿[
+  {
+    "seqno": 845,
+    "headers": {
+      "returnPath": "<iwwodkq@winsoker.co.ua>",
+      "xOriginalTo": [ "###@###.de", "###@###.de" ],
+      "deliveredTo": [ "###@###.de", "###@###.de" ],
+      "received": [
+        "by ###.de (Postfix, from userid 30)\tid F196C8225E; Thu, 15 Jun 2017 00:40:29 +0200 (CEST)",
+        "from mail.winsoker.co.ua (mail.winsoker.co.ua [89.163.225.142])\tby ###.de (Postfix) with ESMTP id 9FF928208A\tfor <###@###.de>; Thu, 15 Jun 2017 00:40:29 +0200 (CEST)",
+        "from winsoker.co.ua (mail.winsoker.co.ua [89.163.225.142])\tby mail.winsoker.co.ua (Postfix) with ESMTPA id 0634CF01B44;\tThu, 15 Jun 2017 04:03:40 +0300 (EEST)"
+      ],
+      "messageId": "<###@iwwodkq>",
+      "replyTo": "\"best pillules\" <iwwodkq@winsoker.co.ua>",
+      "from": "\"best pillules\" <iwwodkq@winsoker.co.ua>",
+      "to": "<###@###.de>",
+      "subject": "Best male pills!",
+      "date": "Thu, 15 Jun 2017 01:40:23 +0300",
+      "mimeVersion": "1.0",
+      "contentType": "multipart/related;\ttype=\"multipart/alternative\";\tboundary=\"----=_NextPart_000_0006_01D2E575.B2586EC0\"",
+      "xPriority": "3",
+      "xMsmailPriority": "Normal",
+      "xMailer": "Microsoft Windows Live Mail 14.0.8117.416",
+      "xMimeole": "Produced By Microsoft MimeOLE V14.0.8117.416"
+    },
+    "getRawHeaders": { "Function": "getRawHeaders" },
+    "bodies": [
+      {
+        "seqno": 845,
+        "which": "TEXT",
+        "size": 675684,
+        "getRawBuffer": { "Function": "getRawBuffer" },
+        "text": "This is a multi-part message in MIME format.\r\n\r\n------=_NextPart_000_0006_ […] 52z/ALrh/wBEX9/AB//Z\r\n------=_NextPart_000_0006_01D2E575.B2586EC0--[…]",
+        "ucs2_length": 675684
+      }
+    ],
+    "size": 676983,
+    "date": "2017-06-14T22:40:30.000Z",
+    "flags": [],
+    "uid": 2734
+  },
+  {
+    "seqno": 846,
+    "headers": {
+      "returnPath": "<ygqufvmfx@hmsc.harvard.edu>",
+      "xOriginalTo": [ "###@###.de", "###@###.de" ],
+      "deliveredTo": [ "###@###.de", "###@###.de" ],
+      "received": [
+        "by ###.de (Postfix, from userid 30)\tid F01188225E; Thu, 15 Jun 2017 01:00:11 +0200 (CEST)",
+        "from hmsc.harvard.edu (ip179.ip-164-132-90.eu [164.132.90.179])\tby ###.de (Postfix) with ESMTP id 851608208A\tfor <###@###.de>; Thu, 15 Jun 2017 01:00:11 +0200 (CEST)",
+        "from dkum.hmsc.harvard.edu ([127.240.110.17]) by xq7-m50.hmsc.harvard.edu with Microsoft SMTPSVC(5.0.2195.6824);\t Wed, 14 Jun 2017 23:02:26 -00",
+        "from owg.hmsc.harvard.edu (jkjk.hmsc.harvard.edu [122.153.63.139])\tby ldnf.hmsc.harvard.edu (8.12.10/8.12.9) with ESMTP id k6KMElTW831137\tfor <###@###.de>; Wed, 14 […]",
+        "from RZ655085675132 (modemcable218.117-630-37.oq.hmsc.harvard.edu [187.178.39.106])\t(authenticated bits=0)\tby fyki.hmsc.harvard.edu (8.12.10/8.12.9) with ESMTP id […]"
+      ],
+      "xMessageInfo": "4rXAzV47################jGuXq51Q",
+      "messageId": "<###@CE181646073623>",
+      "from": "\"Charles\" <ygqufvmfx@hmsc.harvard.edu>",
+      "to": "<###@###.de>",
+      "subject": "Looking for additional money? Try out the best financial instrument.",
+      "date": "Wed, 14 Jun 2017 23:02:26 -00",
+      "mimeVersion": "1.0",
+      "contentType": "text/html;;",
+      "contentTransferEncoding": "quoted-printable"
+    },
+    "getRawHeaders": { "Function": "getRawHeaders" },
+    "bodies": [
+      {
+        "seqno": 846,
+        "which": "TEXT",
+        "size": 212,
+        "getRawBuffer": { "Function": "getRawBuffer" },
+        "text": "\r\n10396########652924\r\nIf you can't read this email, please view it online http://new.ynlanta.cn/ =\r\n\r\n\r\nEarn money in no time!\r\n\r\n<a href=3D\"http://new.ynlanta.[…]",
+        "ucs2_length": 212
+      }
+    ],
+    "size": 1913,
+    "date": "2017-06-14T23:00:11.000Z",
+    "flags": [],
+    "uid": 2735
+  }
+]

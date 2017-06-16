@@ -1,0 +1,27 @@
+{ "name": "imapfetch-collect",
+  "version": "0.1.0",
+  "description": "Simplified abstraction for the `fetch` method of the `imap` module. Get a callback instead of streams within streams.",
+  "keywords": [ "imap", "fetch" ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/imapfetch-collect-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/imapfetch-collect-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/imapfetch-collect-js/issues"
+  },
+
+  "private": false, "license": "ISC",
+
+  "main": "fetch.js",
+  "scripts": { "test": "nodejs test/all.js" },
+  "directories": { "test": "test" },
+
+  "dependencies": {},
+  "devDependencies": {},
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
