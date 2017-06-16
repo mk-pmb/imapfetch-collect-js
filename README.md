@@ -92,6 +92,32 @@ Simplification drawbacks
   all but one are silently ignored.
 * All messages are buffered into memory. You don't get a chance to ignore
   some message body based on the message's size or headers.
+* Only the first message body is auto-decoded, because I haven't encountered
+  any mail with multiple (top-level) message bodies yet.
+  If you have more complicated mail, you can work with raw headers and bodies.
+
+
+Working with raw headers and bodies
+-----------------------------------
+
+Each message object has the methods `getRawHeaders` and `getRawBodies` which
+understand optional arguments, `([n[, enc[, maxBytes]]])`.
+
+* When `n` is not a number (e.g. undefined / missing),
+  they'll return an Array whose items each have a `getRawBuffer` method.
+* With a number `n`, they'll return the `n`-th item (starting at index 0)
+  or `false`.
+  * If you also set `enc` to either `null` or `"buffer"`,
+    they'll return that item's original (entire) buffer.
+    (Regardless of `maxDecodeBytes`, since there's no decoding.)
+  * If you set `enc` to some other non-empty string, they'll attempt
+    to decode up to `maxDecodeBytes` of that buffer into a string using
+    encoding `enc`.
+  * `maxBytes` should be either:
+    * missing, `undefined`, `0`, `false`: No override.
+    * a positive number: Temporarily override the `maxDecodeBytes` option.
+    * `true`: Override: Decode entire buffer.
+
 
 
 Known issues
