@@ -1,5 +1,5 @@
 { "name": "imapfetch-collect",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simplified abstraction for the `fetch` method of the `imap` module. Get a callback instead of streams within streams.",
   "keywords": [ "imap", "fetch" ],
 
@@ -19,7 +19,11 @@
   "scripts": { "test": "nodejs test/all.js" },
   "directories": { "test": "test" },
 
-  "dependencies": {},
+  "dependencies": {
+    "collect-stream": "^1.2.1",
+    "imap": "^0.8.19",
+    "transkey": "^0.1.1"
+  },
   "devDependencies": {},
 
 
