@@ -28,9 +28,9 @@
     "size": 676983,
     "date": "2017-06-14T22:40:30.000Z",
     "flags": [],
-    "uid": 2734
+    "uid": 2734,
     "text": "This is a multi-part message in MIME format.\r\n\r\n------=_NextPart_000_0006_ […] 52z/ALrh/wBEX9/AB//Z\r\n------=_NextPart_000_0006_01D2E575.B2586EC0--[…]",
-    "textLengthUCS2": 675684,
+    "textLengthUCS2": 675684
   },
   {
     "seqno": 846,
@@ -62,13 +62,13 @@
         "seqno": 846,
         "which": "TEXT",
         "size": 212,
-        "getRawBuffer": { "Function": "getRawBuffer" },
+        "getRawBuffer": { "Function": "getRawBuffer" }
       }
     ],
     "size": 1913,
     "date": "2017-06-14T23:00:11.000Z",
     "flags": [],
-    "uid": 2735
+    "uid": 2735,
     "text": "\r\n10396########652924\r\nIf you can't read this email, please view it online http://new.ynlanta.cn/ =\r\n\r\n\r\nEarn money in no time!\r\n\r\n<a href=3D\"http://new.ynlanta.[…]",
     "textLengthUCS2": 207
   }

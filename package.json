@@ -1,5 +1,5 @@
 { "name": "imapfetch-collect",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Simplified abstraction for the `fetch` method of the `imap` module. Get a callback instead of streams within streams.",
   "keywords": [ "imap", "fetch" ],
 
